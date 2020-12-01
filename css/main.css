@@ -70,6 +70,14 @@ h4 {
   font-weight: 900; 
   /* Default font, size, and margins */
 }
+
+h5 { 
+  font-size: 24px;
+  color: #ffffff;
+  margin: 64px 0;
+  font-weight: 900;
+}
+
 .mis-avant {
   display: flex;
   max-width: 1280px;
@@ -101,6 +109,7 @@ h4 {
 .mis-en-avant_illustration {
   background-image: url(../img/bg-yellow.png);
   background-position: left bottom;
+  margin-left: 25px;
   background-size: auto 100%;
   display: flex;
   justify-content: flex-end;
@@ -112,12 +121,70 @@ h4 {
   max-width: 70%;
   mix-blend-mode: darken;
 }
+
+.mis-en-avant_illustration2 {
+  background-image: url(../img/bg-orange.png);
+  background-position: left bottom;
+  background-size: auto 100%;
+  margin-top: 35px;
+  margin-right: 50px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.mis-en-avant_image2 {
+  display: block;
+  flex-grow: 1;
+  max-width: 70%;
+  mix-blend-mode: darken;
+}
 p {
   font-size: 16px;
   color: #231f20;
   margin: 34px 0;
 }
+.button {
+  border: solid 4px #fcce00;
+  border-radius: 15px;
+  display: block;
+  max-width: 200px;
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #fcce00;
+  padding: 10px;
+}
 
+.button2 {
+  border: solid 4px #ff6b00;
+  border-radius: 15px;
+  display: block;
+  max-width: 200px;
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #ff6b00;
+  padding: 10px;
+}
+
+.button3 {
+  border: solid 4px #ffffff;
+  border-radius: 15px;
+  display: block;
+  max-width: 200px;
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+}
 li{
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
