@@ -162,6 +162,31 @@ h5 {
   mix-blend-mode: darken;
   margin-left: auto;
 }
+
+.mis-en-avant2 {
+  background-image: url(../img/bg-violet.png);
+  display: flex;
+  width: 100%;
+}
+.mis-en-avant_image4 {
+  display: block;
+  mix-blend-mode: darken;
+  margin-left: auto;
+}
+
+.mis-en-avant3 {
+  background-image: url(../img/bg-blue.png);
+  display: flex;
+  width: 100%;
+}
+
+.mis-en-avant_image5 {
+  display: flex;
+  mix-blend-mode: darken;
+  margin-left: auto;
+}
+
+}
 p {
   font-size: 16px;
   color: #231f20;
