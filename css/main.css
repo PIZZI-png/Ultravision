@@ -70,7 +70,48 @@ h4 {
   font-weight: 900; 
   /* Default font, size, and margins */
 }
+.mis-avant {
+  display: flex;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.mis-avant_content, 
+.mis-en-avant_illustration {
+ flex-basis: 320px;
+ flex-grow: 1;
+}
+
+.mis-avant_titre{
+  font-size: 24px;
+  font-weight:700;
+  height: 10px;
+}
+
+.mis-avant_description {
+  padding-top: 0;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  font-size: 16px;
+  text-align: justify; 
+}
+
+.mis-en-avant_illustration {
+  background-image: url(../img/bg-yellow.png);
+  background-position: left bottom;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.mis-en-avant_image {
+  display: block;
+  max-width: 70%;
+  mix-blend-mode: darken;
+}
 p {
   font-size: 16px;
   color: #231f20;
