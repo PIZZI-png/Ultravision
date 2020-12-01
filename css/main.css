@@ -72,10 +72,9 @@ h4 {
 }
 
 h5 { 
-  font-size: 24px;
   color: #ffffff;
-  margin: 64px 0;
-  font-weight: 900;
+  margin-left: 60px;
+  font-size: 34px;
 }
 
 .mis-avant {
@@ -83,6 +82,14 @@ h5 {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+.description2 {
+  font-size: 24px;
+  margin-left: 60px;
+  color: #ffffff;
 }
 
 .mis-avant_content, 
@@ -139,6 +146,22 @@ h5 {
   max-width: 70%;
   mix-blend-mode: darken;
 }
+
+.mis-en-avant {
+  background-image: url(../img/bg-red.png);
+  display: flex;
+  width: 100%;
+}
+.mis-en-avant1 {
+  background-image: url(../img/bg-red.png);
+  display: flex;
+  width: 100%;
+}
+.mis-en-avant_image3 {
+  display: block;
+  mix-blend-mode: darken;
+  margin-left: auto;
+}
 p {
   font-size: 16px;
   color: #231f20;
@@ -177,7 +200,8 @@ p {
   border-radius: 15px;
   display: block;
   max-width: 200px;
-  margin-left: auto;
+  margin-left: 60px;
+  margin-top: 32px;
   font-size: 20px;
   font-weight: bold;
   font-style: normal;
