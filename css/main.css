@@ -77,14 +77,21 @@ h5 {
   font-size: 34px;
 }
 
+h6 {
+  color: #ffffff;
+  font-weight: 900;
+  height: 1px;
+  margin: 64px 0;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
 .mis-avant {
   display: flex;
-  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 .description2 {
   font-size: 24px;
@@ -142,13 +149,13 @@ h5 {
 }
 .mis-en-avant_image2 {
   display: block;
-  flex-grow: 1;
   max-width: 70%;
   mix-blend-mode: darken;
 }
 
 .mis-en-avant {
   background-image: url(../img/bg-red.png);
+  margin: auto;
   display: flex;
   width: 100%;
 }
@@ -186,7 +193,28 @@ h5 {
   margin-left: auto;
 }
 
+.sous-titre3 {
+  background-color: #222222;
+  padding-top: 5px;
 }
+
+.grille {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 32px;
+  padding: 65px 32px;
+  background-color: #222222;
+}
+
+.sous-titre {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game{
+  width: 100%;
+}
+
 p {
   font-size: 16px;
   color: #231f20;
