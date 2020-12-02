@@ -132,7 +132,7 @@ h6 {
 
 .mis-en-avant_image {
   display: block;
-  max-width: 70%;
+  max-width: 50%;
   mix-blend-mode: darken;
 }
 
@@ -213,6 +213,64 @@ h6 {
 
 .game{
   width: 100%;
+}
+
+.game1{
+  position: relative;
+}
+
+.game-visuel {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  font-size: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.game-visuel {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 800ms transform ease-in-out, 200ms opacity;
+}
+
+.game1:hover .game-visuel {
+  opacity: 1;
+  transform: translateY(0px)
+}
+
+.game-categorie {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.game-title {
+  font-size: 28px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 900;
+  color: #fcce00
+}
+
+.game-description {
+  font-size: 14px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #ffffff;
+}
+
+.game-title2 {
+  font-size: 28px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 900;
+  color: #ff6b00;
 }
 
 p {
